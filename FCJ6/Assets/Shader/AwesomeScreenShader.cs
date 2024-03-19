@@ -23,6 +23,11 @@ public class AwesomeScreenShader : MonoBehaviour
 
     void OnRenderImage(RenderTexture source, RenderTexture destination)
     {
+        if(m_renderMaterial == null)
+        {
+            Graphics.Blit(source, destination);
+            return;
+        }
         Graphics.Blit(source, destination, m_renderMaterial);
     }
 }

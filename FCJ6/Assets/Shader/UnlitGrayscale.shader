@@ -1,8 +1,10 @@
-Shader "Unlit/OldMovie"
+Shader "Unlit/UnlitGrayscale"
 {
     Properties
     {
+        _Color("Color", Color) = (1,1,1,1)
         _MainTex ("Texture", 2D) = "white" {}
+        _Blend("Blend", Range(0,1)) = 0.0
     }
     SubShader
     {
@@ -34,6 +36,8 @@ Shader "Unlit/OldMovie"
 
             sampler2D _MainTex;
             float4 _MainTex_ST;
+            float4 _Color;
+            float _Blend;
 
             v2f vert (appdata v)
             {
@@ -44,13 +48,17 @@ Shader "Unlit/OldMovie"
                 return o;
             }
 
-            fixed4 frag (v2f i) : SV_Target
+            fixed4 frag(v2f i) : SV_Target
             {
-                // sample the texture
-                fixed4 col = tex2D(_MainTex, i.uv);
+                fixed4 c = _Color;
+
+                float intensity = c.x * 0.299 + c.y * 0.587 + c.z * 0.114;
+                fixed4 bandw = fixed4(intensity, intensity, intensity, c.w);
+                fixed4 lerped = lerp(c, bandw, _Blend);
+
                 // apply fog
-                UNITY_APPLY_FOG(i.fogCoord, col);
-                return col;
+                UNITY_APPLY_FOG(i.fogCoord, lerped);
+                return lerped;
             }
             ENDCG
         }
