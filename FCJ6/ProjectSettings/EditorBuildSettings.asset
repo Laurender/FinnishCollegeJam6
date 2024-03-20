@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cutscene.unity
     guid: 40cfb10ea18400c479a6c31dc8f0418f
+  - enabled: 1
+    path: Assets/Night Mointains Lake/Sample Scene.unity
+    guid: 592a963cbd57f484592d49ee6732009b
   m_configObjects: {}
