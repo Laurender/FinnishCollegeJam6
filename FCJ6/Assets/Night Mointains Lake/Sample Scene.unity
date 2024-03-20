@@ -1384,6 +1384,7 @@ GameObject:
   m_Component:
   - component: {fileID: 37199279}
   - component: {fileID: 37199278}
+  - component: {fileID: 37199280}
   m_Layer: 0
   m_Name: Ice_Bot_S_R_0001 (2)
   m_TagString: Untagged
@@ -1458,6 +1459,62 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -135.97}
+--- !u!68 &37199280
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37199277}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.50348866, y: 0.50633055}
+  - {x: -0.5002788, y: -0.24363005}
+  - {x: -0.31188583, y: -0.25171512}
+  - {x: -0.18651687, y: -0.27050057}
+  - {x: -0.12533706, y: -0.227228}
+  - {x: -0.035417262, y: -0.2351572}
+  - {x: 0.021519639, y: -0.20938279}
+  - {x: 0.112342514, y: -0.23643954}
+  - {x: 0.12399909, y: -0.29686219}
+  - {x: 0.3130575, y: -0.2936592}
+  - {x: 0.45698056, y: 0.038248107}
+  - {x: 0.490967, y: 0.14638191}
+  - {x: 0.4753319, y: 0.24821024}
+  - {x: 0.41678047, y: 0.28591362}
+  - {x: 0.48449618, y: 0.36813143}
+  - {x: 0.4857095, y: 0.50287116}
+  - {x: -0.49950403, y: 0.5165721}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &38110152
 GameObject:
   m_ObjectHideFlags: 0
@@ -1955,13 +2012,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 44487293}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0129148085, y: -0.031845823, z: -0.37559155, w: 0.92614794}
-  m_LocalPosition: {x: 17.935, y: 13.305, z: 0}
+  m_LocalRotation: {x: 0.014740233, y: -0.03104312, z: -0.32123953, w: 0.94637424}
+  m_LocalPosition: {x: 17.935, y: 13.277, z: 0}
   m_LocalScale: {x: 0.0770722, y: 0.08011417, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -3.939, z: -44.149}
+  m_LocalEulerAnglesHint: {x: 0.456, y: -3.912, z: -37.514}
 --- !u!1 &50744315
 GameObject:
   m_ObjectHideFlags: 0
@@ -5088,6 +5145,7 @@ GameObject:
   m_Component:
   - component: {fileID: 112180828}
   - component: {fileID: 112180827}
+  - component: {fileID: 112180829}
   m_Layer: 0
   m_Name: Ice_G_M_0001 (504)
   m_TagString: Untagged
@@ -5162,6 +5220,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &112180829
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112180826}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &114971715
 GameObject:
   m_ObjectHideFlags: 0
@@ -6382,6 +6485,7 @@ GameObject:
   m_Component:
   - component: {fileID: 147124133}
   - component: {fileID: 147124132}
+  - component: {fileID: 147124134}
   m_Layer: 0
   m_Name: Ice_G_S_R_0001 (4)
   m_TagString: Untagged
@@ -6456,6 +6560,59 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 126.371}
+--- !u!68 &147124134
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147124131}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.49999994, y: 0}
+  - {x: -0.49701136, y: -0.50122255}
+  - {x: 0.48488426, y: -0.49802238}
+  - {x: 0.46025, y: -0.40353578}
+  - {x: 0.44053942, y: -0.33877012}
+  - {x: 0.4342086, y: -0.2191333}
+  - {x: 0.36442876, y: -0.19495372}
+  - {x: 0.47825682, y: 0.07360299}
+  - {x: 0.46479017, y: 0.26553988}
+  - {x: 0.39134827, y: 0.2700047}
+  - {x: 0.45407543, y: 0.34303167}
+  - {x: 0.48694625, y: 0.50095224}
+  - {x: -0.51443267, y: 0.5074481}
+  - {x: -0.49542683, y: 0.013361057}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &149212261
 GameObject:
   m_ObjectHideFlags: 0
@@ -7558,6 +7715,7 @@ GameObject:
   m_Component:
   - component: {fileID: 188638385}
   - component: {fileID: 188638384}
+  - component: {fileID: 188638386}
   m_Layer: 0
   m_Name: Ice_G_S_R_0001 (7)
   m_TagString: Untagged
@@ -7632,6 +7790,60 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 10.57}
+--- !u!68 &188638386
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188638383}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.04438269, y: -0.5028278}
+  - {x: -0.50183046, y: -0.50989103}
+  - {x: -0.50280184, y: 0.49905732}
+  - {x: 0.4945532, y: 0.5029865}
+  - {x: 0.47610396, y: 0.4226628}
+  - {x: 0.45302755, y: 0.34767}
+  - {x: 0.39243338, y: 0.28417867}
+  - {x: 0.4590113, y: 0.2493118}
+  - {x: 0.4789351, y: 0.17703733}
+  - {x: 0.4839008, y: 0.06427629}
+  - {x: 0.3805366, y: -0.20224053}
+  - {x: 0.46323907, y: -0.30608654}
+  - {x: 0.43988803, y: -0.40416294}
+  - {x: 0.49378803, y: -0.50058043}
+  - {x: -0.036819994, y: -0.51509136}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &189570301
 GameObject:
   m_ObjectHideFlags: 0
@@ -14004,6 +14216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 363198698}
   - component: {fileID: 363198697}
+  - component: {fileID: 363198699}
   m_Layer: 0
   m_Name: Ice_G_M_0001 (281)
   m_TagString: Untagged
@@ -14078,6 +14291,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &363198699
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363198696}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &365029452
 GameObject:
   m_ObjectHideFlags: 0
@@ -14592,6 +14850,7 @@ GameObject:
   m_Component:
   - component: {fileID: 375620437}
   - component: {fileID: 375620436}
+  - component: {fileID: 375620438}
   m_Layer: 0
   m_Name: Ice_G_S_R_0001 (5)
   m_TagString: Untagged
@@ -14666,6 +14925,60 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 121.681}
+--- !u!68 &375620438
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375620435}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.5, y: 0}
+  - {x: -0.49831754, y: -0.5024622}
+  - {x: 0.49756774, y: -0.50294954}
+  - {x: 0.436324, y: -0.36048976}
+  - {x: 0.44975752, y: -0.29484624}
+  - {x: 0.43747872, y: -0.23261769}
+  - {x: 0.38090947, y: -0.20079648}
+  - {x: 0.4175124, y: -0.09897259}
+  - {x: 0.4676652, y: 0.050779052}
+  - {x: 0.46616077, y: 0.23792839}
+  - {x: 0.37847167, y: 0.28097177}
+  - {x: 0.45302108, y: 0.358395}
+  - {x: 0.49726284, y: 0.5024147}
+  - {x: -0.522764, y: 0.51039237}
+  - {x: -0.5115746, y: 0.010305742}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &376245191
 GameObject:
   m_ObjectHideFlags: 0
@@ -15675,6 +15988,7 @@ GameObject:
   m_Component:
   - component: {fileID: 409974311}
   - component: {fileID: 409974310}
+  - component: {fileID: 409974312}
   m_Layer: 0
   m_Name: Ice_G_M_0001 (295)
   m_TagString: Untagged
@@ -15749,6 +16063,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &409974312
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 409974309}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &411317721
 GameObject:
   m_ObjectHideFlags: 0
@@ -18581,6 +18940,7 @@ GameObject:
   m_Component:
   - component: {fileID: 486380701}
   - component: {fileID: 486380700}
+  - component: {fileID: 486380702}
   m_Layer: 0
   m_Name: Ice_G_M_0001 (279)
   m_TagString: Untagged
@@ -18655,6 +19015,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &486380702
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486380699}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &490271823
 GameObject:
   m_ObjectHideFlags: 0
@@ -19673,6 +20078,7 @@ GameObject:
   m_Component:
   - component: {fileID: 520852166}
   - component: {fileID: 520852165}
+  - component: {fileID: 520852167}
   m_Layer: 0
   m_Name: Ice_Bot_S_L_0001 (1)
   m_TagString: Untagged
@@ -19747,6 +20153,62 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -96.671}
+--- !u!68 &520852167
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520852164}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 0.5026711, y: -0.2424295}
+  - {x: 0.35519868, y: -0.2359004}
+  - {x: 0.19451773, y: -0.3301063}
+  - {x: 0.08919719, y: -0.30272162}
+  - {x: -0.0040532053, y: -0.26009867}
+  - {x: -0.11877051, y: -0.27974018}
+  - {x: -0.32976684, y: -0.22869758}
+  - {x: -0.36290607, y: -0.17655507}
+  - {x: -0.43917677, y: -0.16858259}
+  - {x: -0.45761803, y: 0.00047128275}
+  - {x: -0.40837276, y: 0.036478594}
+  - {x: -0.4166181, y: 0.10631752}
+  - {x: -0.4375063, y: 0.19411168}
+  - {x: -0.47068605, y: 0.2766793}
+  - {x: -0.4737164, y: 0.51024085}
+  - {x: 0.5074377, y: 0.50508696}
+  - {x: 0.5032853, y: -0.24602747}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &521227624
 GameObject:
   m_ObjectHideFlags: 0
@@ -23447,6 +23909,7 @@ GameObject:
   m_Component:
   - component: {fileID: 632265653}
   - component: {fileID: 632265652}
+  - component: {fileID: 632265654}
   m_Layer: 0
   m_Name: Ice_Bot_M_0001 (4)
   m_TagString: Untagged
@@ -23521,6 +23984,58 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -127.959}
+--- !u!68 &632265654
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632265651}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.5041059, y: -0.22798486}
+  - {x: -0.5022321, y: 0.50707674}
+  - {x: 0.512424, y: 0.51085985}
+  - {x: 0.5131531, y: -0.22768806}
+  - {x: 0.35825875, y: -0.2380656}
+  - {x: 0.3287863, y: -0.2653714}
+  - {x: 0.14545318, y: -0.29673758}
+  - {x: 0.122314766, y: -0.2358942}
+  - {x: -0.06659037, y: -0.26758194}
+  - {x: -0.34578577, y: -0.2913245}
+  - {x: -0.37188104, y: -0.1961334}
+  - {x: -0.3970868, y: -0.23583733}
+  - {x: -0.501127, y: -0.23512289}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &634542340
 GameObject:
   m_ObjectHideFlags: 0
@@ -25104,6 +25619,7 @@ GameObject:
   m_Component:
   - component: {fileID: 679297947}
   - component: {fileID: 679297946}
+  - component: {fileID: 679297948}
   m_Layer: 0
   m_Name: Ice_G_S_R_0001 (6)
   m_TagString: Untagged
@@ -25178,6 +25694,58 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 93.866}
+--- !u!68 &679297948
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679297945}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.50000024, y: 0}
+  - {x: -0.4956217, y: -0.49896944}
+  - {x: 0.48672026, y: -0.5122689}
+  - {x: 0.43893346, y: -0.35403752}
+  - {x: 0.4445699, y: -0.26449883}
+  - {x: 0.39053005, y: -0.19898948}
+  - {x: 0.4713482, y: 0.049198315}
+  - {x: 0.46329898, y: 0.24866582}
+  - {x: 0.4002072, y: 0.27019548}
+  - {x: 0.46353728, y: 0.36639023}
+  - {x: 0.4810204, y: 0.4894807}
+  - {x: -0.4908494, y: 0.5142367}
+  - {x: -0.49980503, y: 0.016807036}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &680862640
 GameObject:
   m_ObjectHideFlags: 0
@@ -25944,6 +26512,8 @@ GameObject:
   m_Component:
   - component: {fileID: 705414100}
   - component: {fileID: 705414099}
+  - component: {fileID: 705414102}
+  - component: {fileID: 705414101}
   m_Layer: 0
   m_Name: Snow_decoration_0002 (3)
   m_TagString: Untagged
@@ -26018,6 +26588,78 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &705414101
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705414098}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.39028835, y: -0.31225777}
+  - {x: -0.40920925, y: -0.12224674}
+  - {x: -0.3402748, y: -0.024310112}
+  - {x: -0.1565628, y: 0.06751537}
+  - {x: -0.038981438, y: 0.03867531}
+  - {x: -0.02098751, y: -0.026952744}
+  - {x: -0.086984634, y: -0.048163414}
+  - {x: -0.123784065, y: -0.15764904}
+  - {x: -0.19414425, y: -0.0980587}
+  - {x: -0.24769306, y: -0.24048615}
+  - {x: -0.2838726, y: -0.14887524}
+  - {x: -0.3776989, y: -0.31225777}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!114 &705414102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705414098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 590d0a4a23369fe4094bee34430c4b38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorDefault: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+  colorSelected: {r: 0.25, g: 0.65, b: 0.8, a: 1}
+  nameLabel: {fileID: 0}
+  valueToggle: {fileID: 0}
+  colorImage: {fileID: 0}
+  fieldR: {fileID: 0}
+  fieldG: {fileID: 0}
+  fieldB: {fileID: 0}
+  fieldA: {fileID: 0}
 --- !u!1 &708672259
 GameObject:
   m_ObjectHideFlags: 0
@@ -26112,6 +26754,7 @@ GameObject:
   m_Component:
   - component: {fileID: 708708925}
   - component: {fileID: 708708924}
+  - component: {fileID: 708708926}
   m_Layer: 0
   m_Name: Ice_G_M_0001 (527)
   m_TagString: Untagged
@@ -26186,6 +26829,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &708708926
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708708923}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &709797345
 GameObject:
   m_ObjectHideFlags: 0
@@ -28196,7 +28884,7 @@ Transform:
   m_GameObject: {fileID: 775118998}
   serializedVersion: 2
   m_LocalRotation: {x: 0.011926699, y: -0.03222891, z: -0.4039705, w: 0.91412634}
-  m_LocalPosition: {x: 17.127, y: 13.323, z: 0}
+  m_LocalPosition: {x: 17.066, y: 13.275, z: 0}
   m_LocalScale: {x: 0.0770722, y: 0.08011417, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -28548,6 +29236,7 @@ GameObject:
   m_Component:
   - component: {fileID: 787617315}
   - component: {fileID: 787617314}
+  - component: {fileID: 787617316}
   m_Layer: 0
   m_Name: vase
   m_TagString: Untagged
@@ -28622,6 +29311,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &787617316
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787617313}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.016520023, y: -0.5910055}
+  - {x: -0.19114327, y: -0.5276043}
+  - {x: -0.3969074, y: -0.46520832}
+  - {x: -0.57473737, y: 0.4497604}
+  - {x: -0.28010148, y: 0.5284907}
+  - {x: 0.2053328, y: 0.52917045}
+  - {x: 0.43836346, y: 0.46271947}
+  - {x: 0.30183047, y: -0.4441359}
+  - {x: -0.0185768, y: -0.58357537}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &789903533
 GameObject:
   m_ObjectHideFlags: 0
@@ -29043,6 +29780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 808742012}
   - component: {fileID: 808742011}
+  - component: {fileID: 808742013}
   m_Layer: 0
   m_Name: Ice_G_M_0001 (297)
   m_TagString: Untagged
@@ -29117,6 +29855,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &808742013
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808742010}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &808878657
 GameObject:
   m_ObjectHideFlags: 0
@@ -32018,6 +32801,7 @@ GameObject:
   m_Component:
   - component: {fileID: 883845282}
   - component: {fileID: 883845281}
+  - component: {fileID: 883845283}
   m_Layer: 0
   m_Name: Ice_G_S_L_0001 (3)
   m_TagString: Untagged
@@ -32092,6 +32876,60 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -82.307}
+--- !u!68 &883845283
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883845280}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 0.5110537, y: -0.010913536}
+  - {x: 0.49203843, y: -0.49922758}
+  - {x: -0.48924482, y: -0.50795704}
+  - {x: -0.49994394, y: -0.4260567}
+  - {x: -0.38652724, y: -0.32718247}
+  - {x: -0.3454257, y: -0.1807365}
+  - {x: -0.26875263, y: -0.03222636}
+  - {x: -0.32657838, y: 0.12405677}
+  - {x: -0.4065846, y: 0.187038}
+  - {x: -0.48307234, y: 0.2472488}
+  - {x: -0.47452003, y: 0.34700885}
+  - {x: -0.46850523, y: 0.4218071}
+  - {x: -0.48629606, y: 0.50643414}
+  - {x: 0.49446806, y: 0.5250207}
+  - {x: 0.5000001, y: 0}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &884354961
 GameObject:
   m_ObjectHideFlags: 0
@@ -34357,6 +35195,7 @@ GameObject:
   m_Component:
   - component: {fileID: 962697182}
   - component: {fileID: 962697181}
+  - component: {fileID: 962697183}
   m_Layer: 0
   m_Name: Ice_Bot_spikes_L_0001 (6)
   m_TagString: Untagged
@@ -34431,6 +35270,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 186.842}
+--- !u!68 &962697183
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962697180}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 0.49406976, y: 0.5215642}
+  - {x: -0.49071506, y: 0.5056647}
+  - {x: -0.49103892, y: 0.50287664}
+  - {x: -0.49759397, y: 0.40825856}
+  - {x: -0.39349455, y: 0.21733099}
+  - {x: -0.33766392, y: 0.21776146}
+  - {x: -0.23963699, y: 0.1912187}
+  - {x: -0.26311994, y: 0.12258178}
+  - {x: -0.1675876, y: 0.018211614}
+  - {x: -0.055647466, y: -0.03660093}
+  - {x: -0.0088593755, y: -0.014306387}
+  - {x: 0.03414578, y: -0.0061889812}
+  - {x: 0.07930846, y: -0.033127192}
+  - {x: 0.08287521, y: -0.083872065}
+  - {x: 0.1647853, y: -0.12854983}
+  - {x: 0.1911568, y: -0.2655987}
+  - {x: 0.22683682, y: -0.23343144}
+  - {x: 0.30956587, y: -0.40892512}
+  - {x: 0.4236216, y: -0.20504165}
+  - {x: 0.49954873, y: -0.2316044}
+  - {x: 0.49985355, y: -0.026589518}
+  - {x: 0.49996766, y: 0.050198447}
+  - {x: 0.500638, y: 0.5004687}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &966495224
 GameObject:
   m_ObjectHideFlags: 0
@@ -36364,6 +37265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1045648518}
   - component: {fileID: 1045648517}
+  - component: {fileID: 1045648519}
   m_Layer: 0
   m_Name: Ice_G_M_0001 (517)
   m_TagString: Untagged
@@ -36438,6 +37340,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1045648519
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045648516}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1051931597
 GameObject:
   m_ObjectHideFlags: 0
@@ -38771,6 +39718,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1126252065}
   - component: {fileID: 1126252064}
+  - component: {fileID: 1126252066}
   m_Layer: 0
   m_Name: Ice_G_M_0001 (296)
   m_TagString: Untagged
@@ -38845,6 +39793,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1126252066
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126252063}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1128604745
 GameObject:
   m_ObjectHideFlags: 0
@@ -39819,7 +40812,7 @@ Transform:
   m_GameObject: {fileID: 1151817479}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0.0048583667, w: 0.99998826}
-  m_LocalPosition: {x: 17.639, y: 13.3299, z: 0}
+  m_LocalPosition: {x: 17.616, y: 13.264, z: 0}
   m_LocalScale: {x: 0.07003009, y: 0.07012337, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -42575,13 +43568,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1221022659}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.009452182, y: -0.03303942, z: -0.8665099, w: 0.49797553}
-  m_LocalPosition: {x: 16.8, y: 13.431, z: 0}
+  m_LocalRotation: {x: -0.007603002, y: -0.03351329, z: -0.8375217, w: 0.5453225}
+  m_LocalPosition: {x: 16.547, y: 13.516, z: 0}
   m_LocalScale: {x: 0.0770722, y: 0.08011417, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -3.823, y: -0.949, z: -120.197}
+  m_LocalEulerAnglesHint: {x: -3.694, y: -1.368, z: -113.818}
 --- !u!1 &1221281717
 GameObject:
   m_ObjectHideFlags: 0
@@ -42676,6 +43669,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1222662848}
   - component: {fileID: 1222662847}
+  - component: {fileID: 1222662849}
   m_Layer: 0
   m_Name: Ice_Bot_26_big_R_0001 (5)
   m_TagString: Untagged
@@ -42750,6 +43744,60 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -161.397}
+--- !u!68 &1222662849
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222662846}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.08385539, y: 0.23985976}
+  - {x: -0.5087931, y: 0.016618706}
+  - {x: -0.5369874, y: -0.53078365}
+  - {x: -0.41151786, y: -0.48592538}
+  - {x: -0.30189162, y: -0.48851907}
+  - {x: -0.13445547, y: -0.50112164}
+  - {x: 0.030996665, y: -0.4591205}
+  - {x: 0.091895014, y: -0.44942516}
+  - {x: 0.14839019, y: -0.4286682}
+  - {x: 0.2080672, y: -0.43097484}
+  - {x: 0.36178246, y: -0.36491722}
+  - {x: 0.38183925, y: -0.29031402}
+  - {x: 0.5039104, y: -0.2487001}
+  - {x: 0.4948727, y: 0.5182088}
+  - {x: -0.08375692, y: 0.24101283}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1236940511
 GameObject:
   m_ObjectHideFlags: 0
@@ -43396,7 +44444,7 @@ Transform:
   m_GameObject: {fileID: 1248651660}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.24493207, w: -0.9695403}
-  m_LocalPosition: {x: 16.89, y: 12.79, z: 1.4941355e-13}
+  m_LocalPosition: {x: 16.649, y: 12.896, z: 1.4941355e-13}
   m_LocalScale: {x: 2.6657739, y: 2.3353076, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -45320,6 +46368,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1310003447}
   - component: {fileID: 1310003446}
+  - component: {fileID: 1310003448}
   m_Layer: 0
   m_Name: tilt_90_512 (1)
   m_TagString: Untagged
@@ -45388,12 +46437,47 @@ Transform:
   m_GameObject: {fileID: 1310003445}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.473, y: 13.506, z: 0}
+  m_LocalPosition: {x: 16.259, y: 13.611, z: 0}
   m_LocalScale: {x: 0.070030436, y: 0.06915132, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1310003448
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310003445}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.03802145, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.913819
 --- !u!1 &1310206892
 GameObject:
   m_ObjectHideFlags: 0
@@ -46512,6 +47596,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1340632437}
   - component: {fileID: 1340632436}
+  - component: {fileID: 1340632438}
   m_Layer: 0
   m_Name: Ice_Top_0002 (1)
   m_TagString: Untagged
@@ -46586,6 +47671,65 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1340632438
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340632435}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 0.10827494, y: -0.50529957}
+  - {x: -0.48499298, y: -0.48971224}
+  - {x: -0.40500546, y: -0.40493202}
+  - {x: -0.40500546, y: -0.40493202}
+  - {x: -0.3681941, y: -0.41379166}
+  - {x: -0.2593975, y: -0.20690107}
+  - {x: -0.19393349, y: -0.19820213}
+  - {x: -0.1560831, y: -0.13474607}
+  - {x: -0.056595802, y: -0.07285023}
+  - {x: -0.056310177, y: -0.072806835}
+  - {x: 0.04474163, y: -0.057474613}
+  - {x: 0.19420958, y: -0.10493469}
+  - {x: 0.24499416, y: -0.20264387}
+  - {x: 0.2852583, y: -0.18182993}
+  - {x: 0.4209175, y: -0.19687653}
+  - {x: 0.46240473, y: -0.29944897}
+  - {x: 0.44237566, y: -0.4295025}
+  - {x: 0.5013046, y: -0.46527386}
+  - {x: 0.50294685, y: -0.5045266}
+  - {x: 0.049780846, y: -0.5100889}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1344167465
 GameObject:
   m_ObjectHideFlags: 0
@@ -46596,6 +47740,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1344167467}
   - component: {fileID: 1344167466}
+  - component: {fileID: 1344167468}
   m_Layer: 0
   m_Name: Ice_Top_0003 (1)
   m_TagString: Untagged
@@ -46670,6 +47815,53 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1.919}
+--- !u!68 &1344167468
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344167465}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.004406929, y: -0.49792448}
+  - {x: -0.51506627, y: -0.5100342}
+  - {x: -0.47302514, y: -0.33190942}
+  - {x: -0.3861655, y: -0.30819488}
+  - {x: -0.009328395, y: 0.3086119}
+  - {x: 0.2286733, y: -0.31794834}
+  - {x: 0.50060344, y: -0.49764028}
+  - {x: 0.0019812882, y: -0.49840385}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1355980330
 GameObject:
   m_ObjectHideFlags: 0
@@ -47747,6 +48939,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1377111903}
   - component: {fileID: 1377111902}
+  - component: {fileID: 1377111904}
   m_Layer: 0
   m_Name: Ice_G_S_L_0001 (4)
   m_TagString: Untagged
@@ -47821,6 +49014,59 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -20.321}
+--- !u!68 &1377111904
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377111901}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 0.023646832, y: -0.50840104}
+  - {x: -0.48572347, y: -0.5139451}
+  - {x: -0.47360787, y: -0.41909856}
+  - {x: -0.39453536, y: -0.31016827}
+  - {x: -0.3430174, y: -0.17445648}
+  - {x: -0.26588047, y: -0.02528614}
+  - {x: -0.3094488, y: 0.12724859}
+  - {x: -0.49003524, y: 0.2515001}
+  - {x: -0.47970378, y: 0.3344535}
+  - {x: -0.45187685, y: 0.39481026}
+  - {x: -0.47641766, y: 0.49437538}
+  - {x: 0.5035628, y: 0.50195456}
+  - {x: 0.50842476, y: -0.4970572}
+  - {x: 0.031960845, y: -0.5080295}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1379696606
 GameObject:
   m_ObjectHideFlags: 0
@@ -48819,6 +50065,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1429465219}
   - component: {fileID: 1429465218}
+  - component: {fileID: 1429465220}
   m_Layer: 0
   m_Name: Ice_G_M_0001 (526)
   m_TagString: Untagged
@@ -48893,6 +50140,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1429465220
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429465217}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1432286213
 GameObject:
   m_ObjectHideFlags: 0
@@ -48903,6 +50195,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1432286215}
   - component: {fileID: 1432286214}
+  - component: {fileID: 1432286216}
   m_Layer: 0
   m_Name: Ice_Bot_spikes_0001
   m_TagString: Untagged
@@ -48977,6 +50270,74 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -160.871}
+--- !u!68 &1432286216
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432286213}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.12211591, y: 0.49754962}
+  - {x: -0.5127324, y: 0.49027893}
+  - {x: -0.51288116, y: -0.24950433}
+  - {x: -0.46811318, y: -0.24256125}
+  - {x: -0.43800098, y: -0.3481598}
+  - {x: -0.41561642, y: -0.30909368}
+  - {x: -0.33377272, y: -0.48174006}
+  - {x: -0.31508332, y: -0.43797594}
+  - {x: -0.29843447, y: -0.45081127}
+  - {x: -0.17254885, y: -0.20639387}
+  - {x: -0.15219203, y: -0.2263335}
+  - {x: -0.11935044, y: -0.35343635}
+  - {x: -0.010239318, y: -0.49759597}
+  - {x: 0.009243492, y: -0.4891118}
+  - {x: 0.051292047, y: -0.41258526}
+  - {x: 0.10186505, y: -0.37641284}
+  - {x: 0.14938742, y: -0.23733306}
+  - {x: 0.1894327, y: -0.27194655}
+  - {x: 0.20867036, y: -0.35319662}
+  - {x: 0.24001302, y: -0.3162271}
+  - {x: 0.3080199, y: -0.44987506}
+  - {x: 0.33410895, y: -0.45368645}
+  - {x: 0.33948913, y: -0.49656224}
+  - {x: 0.36776483, y: -0.48645732}
+  - {x: 0.41133758, y: -0.36259782}
+  - {x: 0.46736357, y: -0.24653445}
+  - {x: 0.49127445, y: -0.24151564}
+  - {x: 0.5028378, y: 0.50126}
+  - {x: -0.12402892, y: 0.5028639}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1432479685
 GameObject:
   m_ObjectHideFlags: 0
@@ -52578,6 +53939,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1535420045}
   - component: {fileID: 1535420044}
+  - component: {fileID: 1535420046}
   m_Layer: 0
   m_Name: Ice_G_M_0001 (521)
   m_TagString: Untagged
@@ -52652,6 +54014,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1535420046
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535420043}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 1, y: 1}
+  m_Direction: 0
 --- !u!1 &1536588798
 GameObject:
   m_ObjectHideFlags: 0
@@ -53418,6 +54815,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1554632052}
   - component: {fileID: 1554632051}
+  - component: {fileID: 1554632053}
   m_Layer: 0
   m_Name: Ice_G_M_0001 (288)
   m_TagString: Untagged
@@ -53492,6 +54890,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1554632053
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554632050}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1554862028
 GameObject:
   m_ObjectHideFlags: 0
@@ -56265,6 +57708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1652738436}
   - component: {fileID: 1652738435}
+  - component: {fileID: 1652738437}
   m_Layer: 0
   m_Name: Ice_Bot_spikes_R_0001 (3)
   m_TagString: Untagged
@@ -56339,6 +57783,64 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: -211.647}
+--- !u!68 &1652738437
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652738434}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.5, y: 0}
+  - {x: -0.50760955, y: 0.51523054}
+  - {x: 0.49323794, y: 0.51656926}
+  - {x: 0.46925867, y: 0.4329818}
+  - {x: 0.4564194, y: 0.35628292}
+  - {x: 0.37580535, y: 0.27788427}
+  - {x: 0.3510996, y: 0.20474705}
+  - {x: 0.28702453, y: 0.109029554}
+  - {x: 0.12533066, y: 0.10247206}
+  - {x: 0.10229619, y: 0.028626263}
+  - {x: -0.03196573, y: 0.0031222291}
+  - {x: -0.16168483, y: -0.08452367}
+  - {x: -0.27738455, y: -0.38922322}
+  - {x: -0.37396276, y: -0.24500272}
+  - {x: -0.40516943, y: -0.2579723}
+  - {x: -0.5004676, y: -0.22826287}
+  - {x: -0.49602544, y: -0.1393832}
+  - {x: -0.50573206, y: -0.07435779}
+  - {x: -0.49390173, y: -0.0012463182}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1656999242
 GameObject:
   m_ObjectHideFlags: 0
@@ -57357,6 +58859,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1689128369}
   - component: {fileID: 1689128368}
+  - component: {fileID: 1689128370}
   m_Layer: 0
   m_Name: Ice_G_M_0001 (280)
   m_TagString: Untagged
@@ -57431,6 +58934,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1689128370
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689128367}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1689451367
 GameObject:
   m_ObjectHideFlags: 0
@@ -58336,6 +59884,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1706694371}
   - component: {fileID: 1706694370}
+  - component: {fileID: 1706694372}
   m_Layer: 0
   m_Name: Ice_G_M_0001 (287)
   m_TagString: Untagged
@@ -58410,6 +59959,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1706694372
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706694369}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1711098807
 GameObject:
   m_ObjectHideFlags: 0
@@ -59137,6 +60731,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1733723983}
   - component: {fileID: 1733723982}
+  - component: {fileID: 1733723984}
   m_Layer: 0
   m_Name: Ice_G_M_0001 (272)
   m_TagString: Untagged
@@ -59211,6 +60806,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1733723984
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733723981}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1736547073
 GameObject:
   m_ObjectHideFlags: 0
@@ -61404,6 +63044,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1807405560}
   - component: {fileID: 1807405559}
+  - component: {fileID: 1807405561}
   m_Layer: 0
   m_Name: Ice_Bot_R_0001
   m_TagString: Untagged
@@ -61478,6 +63119,64 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -202.95}
+--- !u!68 &1807405561
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807405558}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.058543235, y: 0.4990097}
+  - {x: -0.5020634, y: 0.49436975}
+  - {x: -0.49763474, y: -0.24247047}
+  - {x: -0.3513985, y: -0.16177553}
+  - {x: -0.30429557, y: -0.17246091}
+  - {x: -0.23186187, y: -0.11659899}
+  - {x: -0.16411032, y: -0.111629866}
+  - {x: -0.017983474, y: -0.030581012}
+  - {x: -0.006398052, y: 0.0056185443}
+  - {x: 0.10141328, y: 0.016477643}
+  - {x: 0.13582353, y: 0.09627023}
+  - {x: 0.26154077, y: 0.11938749}
+  - {x: 0.35741314, y: 0.22198358}
+  - {x: 0.35991997, y: 0.28092033}
+  - {x: 0.46068317, y: 0.3621822}
+  - {x: 0.49815452, y: 0.50691545}
+  - {x: 0.18089041, y: 0.507751}
+  - {x: 0.06282189, y: 0.50925666}
+  - {x: -0.057817042, y: 0.5127778}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1813853526
 GameObject:
   m_ObjectHideFlags: 0
@@ -62710,7 +64409,7 @@ Transform:
   m_GameObject: {fileID: 1838675491}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.42, y: 13.452, z: 0}
+  m_LocalPosition: {x: 17.385, y: 13.341, z: 0}
   m_LocalScale: {x: 0.07003009, y: 0.069153085, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -62810,6 +64509,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1852172845}
   - component: {fileID: 1852172844}
+  - component: {fileID: 1852172846}
   m_Layer: 0
   m_Name: Ice_G_M_0001 (271)
   m_TagString: Untagged
@@ -62884,6 +64584,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1852172846
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852172843}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1855844242
 GameObject:
   m_ObjectHideFlags: 0
@@ -63717,13 +65462,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1879949473}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.017509177, y: -0.029569888, z: -0.23361664, w: 0.97172135}
-  m_LocalPosition: {x: 17.736, y: 12.988, z: 0}
-  m_LocalScale: {x: 0.0770722, y: 0.08011417, z: 1}
+  m_LocalRotation: {x: 0.015908493, y: -0.030460956, z: -0.28506848, w: 0.957891}
+  m_LocalPosition: {x: 17.7406, y: 12.9726, z: 0}
+  m_LocalScale: {x: 0.078328475, y: 0.08450443, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 1.158, y: -3.765, z: -27.075}
+  m_LocalEulerAnglesHint: {x: 0.751, y: -3.867, z: -33.171}
 --- !u!1 &1880285110
 GameObject:
   m_ObjectHideFlags: 0
@@ -64985,6 +66730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1910504028}
   - component: {fileID: 1910504027}
+  - component: {fileID: 1910504029}
   m_Layer: 0
   m_Name: Ice_G_M_0001 (503)
   m_TagString: Untagged
@@ -65059,6 +66805,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1910504029
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910504026}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1913102423
 GameObject:
   m_ObjectHideFlags: 0
@@ -66917,6 +68708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1988989993}
   - component: {fileID: 1988989992}
+  - component: {fileID: 1988989994}
   m_Layer: 0
   m_Name: Ice_platform_0001
   m_TagString: Untagged
@@ -66991,6 +68783,64 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -174.727}
+--- !u!68 &1988989994
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988989991}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.014937162, y: 0.5131856}
+  - {x: -0.48236498, y: 0.5042813}
+  - {x: -0.42836058, y: 0.25990698}
+  - {x: -0.40485397, y: 0.19189298}
+  - {x: -0.434294, y: 0.16806076}
+  - {x: -0.42801997, y: -0.015252452}
+  - {x: -0.27658647, y: -0.18941514}
+  - {x: -0.12979354, y: -0.20898433}
+  - {x: -0.025594385, y: -0.14720103}
+  - {x: -0.021745518, y: -0.2422639}
+  - {x: 0.031755984, y: -0.3024545}
+  - {x: 0.14182805, y: -0.3351384}
+  - {x: 0.21919502, y: -0.2946142}
+  - {x: 0.28677815, y: -0.27291238}
+  - {x: 0.3172599, y: -0.107011415}
+  - {x: 0.3579747, y: 0.053656526}
+  - {x: 0.46685815, y: 0.20113969}
+  - {x: 0.47004464, y: 0.4958905}
+  - {x: -0.021623198, y: 0.49786606}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1990306194
 GameObject:
   m_ObjectHideFlags: 0
@@ -68294,6 +70144,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2029771079}
   - component: {fileID: 2029771078}
+  - component: {fileID: 2029771080}
   m_Layer: 0
   m_Name: Ice_Bot_spikes_L_0001
   m_TagString: Untagged
@@ -68368,6 +70219,62 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -70.836}
+--- !u!68 &2029771080
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029771077}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 0.5052697, y: -0.25906897}
+  - {x: 0.43371168, y: -0.21219878}
+  - {x: 0.3204548, y: -0.4266439}
+  - {x: 0.22637105, y: -0.24580248}
+  - {x: 0.19056104, y: -0.279158}
+  - {x: 0.16192356, y: -0.13860652}
+  - {x: 0.09238097, y: -0.10385734}
+  - {x: 0.07103771, y: -0.021545894}
+  - {x: -0.063281655, y: -0.03296546}
+  - {x: -0.2498866, y: 0.09399995}
+  - {x: -0.25647646, y: 0.1757355}
+  - {x: -0.3941396, y: 0.20515628}
+  - {x: -0.48159665, y: 0.4052401}
+  - {x: -0.461726, y: 0.47699428}
+  - {x: -0.49606377, y: 0.5073574}
+  - {x: 0.50146407, y: 0.5103799}
+  - {x: 0.50615793, y: -0.25339326}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &2038974354
 GameObject:
   m_ObjectHideFlags: 0
@@ -70078,6 +71985,90 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2083408231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2083408233}
+  - component: {fileID: 2083408232}
+  m_Layer: 0
+  m_Name: tilt_90_512 (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &2083408232
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083408231}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 8bfb729cc4f29384791eea2fd1e87bea, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5.12, y: 5.12}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &2083408233
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083408231}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.809, y: 13.379, z: 0}
+  m_LocalScale: {x: 0.07003009, y: 0.069153085, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2084279327
 GameObject:
   m_ObjectHideFlags: 0
@@ -70324,7 +72315,7 @@ Transform:
   m_GameObject: {fileID: 2085076381}
   serializedVersion: 2
   m_LocalRotation: {x: -0.0028222303, y: -0.034248877, z: -0.7526584, w: 0.65751374}
-  m_LocalPosition: {x: 17.405, y: 13.097, z: 0}
+  m_LocalPosition: {x: 17.334, y: 13.072, z: 0}
   m_LocalScale: {x: 0.0770722, y: 0.08011417, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -70666,6 +72657,90 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2103365694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2103365696}
+  - component: {fileID: 2103365695}
+  m_Layer: 0
+  m_Name: tilt_0_512 (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &2103365695
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103365694}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: bc76f13e26a213947932b9622c795c3e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5.12, y: 5.12}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &2103365696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103365694}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.011064664, y: -0.032535065, z: -0.8899368, w: 0.4547873}
+  m_LocalPosition: {x: 17.508, y: 12.302, z: 0}
+  m_LocalScale: {x: 0.0770722, y: 0.08011417, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: -3.898, y: -0.569, z: -125.844}
 --- !u!1 &2104130903
 GameObject:
   m_ObjectHideFlags: 0
@@ -71012,6 +73087,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2111977151}
   - component: {fileID: 2111977150}
+  - component: {fileID: 2111977152}
   m_Layer: 0
   m_Name: Ice_G_M_0001 (505)
   m_TagString: Untagged
@@ -71086,6 +73162,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2111977152
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111977149}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &2112144713
 GameObject:
   m_ObjectHideFlags: 0
@@ -71852,6 +73973,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2136423059}
   - component: {fileID: 2136423058}
+  - component: {fileID: 2136423060}
   m_Layer: 0
   m_Name: Ice_G_M_0001 (520)
   m_TagString: Untagged
@@ -71926,6 +74048,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2136423060
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136423057}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &2140885424
 GameObject:
   m_ObjectHideFlags: 0
@@ -72765,11 +74932,13 @@ SceneRoots:
   - {fileID: 1158625768}
   - {fileID: 1879949475}
   - {fileID: 44487295}
+  - {fileID: 2103365696}
   - {fileID: 2085076383}
   - {fileID: 775119000}
   - {fileID: 1221022661}
   - {fileID: 1151817481}
   - {fileID: 1838675493}
+  - {fileID: 2083408233}
   - {fileID: 1310003447}
   - {fileID: 480353835}
   - {fileID: 1041674570}
