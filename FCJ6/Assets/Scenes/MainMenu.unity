@@ -985,7 +985,8 @@ MonoBehaviour:
 
     Click on screen in the direction you wish to jump, and
     the player will jump towards the spot you clicked. Left click for small jump,
-    and right click for a bit longer jump.'
+    and right click for a bit longer jump. Once in the level, you can also start
+    it over with R, return to main menu with M, or close the game with ESC.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2379,10 +2380,10 @@ MonoBehaviour:
   m_text: "Credits:\nDevelopers: Lauri 'Laurender' Leponiemi, Jimi 'Jimbouu' Palkonen,
     Eelis 'Eiccar1' Puolam\xE4ki and Iisakki 'kissikarva33' Hyttinen from Sasky.\n\nPlayer
     Character art: Modified by Laurender from \"Reipas nuori mies koulumatkalla Karjalohjalla\",
-    1938, Pietinen, Museovirasto, Historian kuvakokoelma, Pietisen kokoelma.\n\nCutscene
-    art, custom cursor: made by Laurender.\n\nRest of the art: from opengameart.org\n\nMusic:
-    Creative Commons Music youtube channel, Silent Film Music (No Copyright / Royalty
-    Free) video, Look Busy (at 0:49:43\u200B)."
+    1938, Pietinen, Museovirasto, Historian kuvakokoelma, Pietisen kokoelma.\n\nGrayscale
+    Shader: Sloan Kelly / codehoose\n\nCutscene art: made by Laurender.\n\nRest of
+    the art: from opengameart.org\n\nMusic: Creative Commons Music youtube channel,
+    Silent Film Music (No Copyright / Royalty Free) video, Look Busy (at 0:49:43\u200B)."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

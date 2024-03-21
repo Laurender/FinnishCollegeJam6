@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
-        Cursor.SetCursor(cursor, Vector2.zero, CursorMode.Auto);
+        //Cursor.SetCursor(cursor, Vector2.zero, CursorMode.Auto);
     }
 
     // Update is called once per frame

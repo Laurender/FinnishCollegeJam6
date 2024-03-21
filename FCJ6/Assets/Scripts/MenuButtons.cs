@@ -9,6 +9,10 @@ public class MenuButtons : MonoBehaviour
     public GameObject controlsPanel;
     public GameObject creditsPanel;
 
+    private void Start()
+    {
+        Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
+    }
     public void OnNewGame()
     {
         //change scene
