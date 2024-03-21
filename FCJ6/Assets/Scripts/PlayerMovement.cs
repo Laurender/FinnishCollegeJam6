@@ -9,6 +9,13 @@ public class PlayerMovement : MonoBehaviour
     bool isGrounded = true;
     public float force = 5f;
     public float bigForce = 10f;
+    public Texture2D cursor;
+    bool isPlaying = true;
+
+    private void Start()
+    {
+        Cursor.SetCursor(cursor, Vector2.zero, CursorMode.Auto);
+    }
 
     // Update is called once per frame
     void Update()
@@ -23,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
 
         bool lmb = Input.GetMouseButtonDown(0);
         bool rmb = Input.GetMouseButtonDown(1);
-        if (lmb && isGrounded && jumpReady)
+        if (lmb && isGrounded && jumpReady && isPlaying)
         {
             Vector3 mousePos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10);
             Vector3 objPos = Camera.main.ScreenToWorldPoint(mousePos);
@@ -36,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
 
             jumpReady = false;
             timer = 0.5f;
-        } else if (rmb && isGrounded && jumpReady)
+        } else if (rmb && isGrounded && jumpReady && isPlaying)
         {
             Vector3 mousePos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10);
             Vector3 objPos = Camera.main.ScreenToWorldPoint(mousePos);
@@ -66,5 +73,10 @@ public class PlayerMovement : MonoBehaviour
     private void OnCollisionExit2D(Collision2D collision)
     {
         isGrounded = false;
+    }
+
+    public void StopPlaying()
+    {
+        isPlaying = false;
     }
 }

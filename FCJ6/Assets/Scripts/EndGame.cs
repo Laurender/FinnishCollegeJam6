@@ -11,8 +11,10 @@ public class EndGame : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
             endPanel.SetActive(true);
             //turn player off
+            collision.gameObject.GetComponent<PlayerMovement>().StopPlaying();
         }
     }
 
