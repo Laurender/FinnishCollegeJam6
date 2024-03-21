@@ -241,7 +241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c31f939b3ebfab48b251a45aaf58c0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: 3
+  nextScene: 2
   subtitle: {fileID: 1246001495}
 --- !u!114 &1246001495
 MonoBehaviour:

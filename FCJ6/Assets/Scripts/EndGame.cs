@@ -20,7 +20,7 @@ public class EndGame : MonoBehaviour
 
     public void OnMainMenu()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 
     public void OnQuit()
