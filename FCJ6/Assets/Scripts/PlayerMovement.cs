@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     bool jumpReady = true;
     bool isGrounded = true;
     public float force = 5f;
+    public float bigForce = 10f;
 
     // Update is called once per frame
     void Update()
@@ -21,7 +22,8 @@ public class PlayerMovement : MonoBehaviour
         }
 
         bool lmb = Input.GetMouseButtonDown(0);
-        if(lmb && isGrounded && jumpReady)
+        bool rmb = Input.GetMouseButtonDown(1);
+        if (lmb && isGrounded && jumpReady)
         {
             Vector3 mousePos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10);
             Vector3 objPos = Camera.main.ScreenToWorldPoint(mousePos);
@@ -29,6 +31,19 @@ public class PlayerMovement : MonoBehaviour
             Vector3 dir = objPos - this.transform.position;
 
             this.GetComponentInParent<Rigidbody2D>().AddForce(dir.normalized * force, ForceMode2D.Impulse);
+
+            Debug.Log("AddForce");
+
+            jumpReady = false;
+            timer = 0.5f;
+        } else if (rmb && isGrounded && jumpReady)
+        {
+            Vector3 mousePos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10);
+            Vector3 objPos = Camera.main.ScreenToWorldPoint(mousePos);
+
+            Vector3 dir = objPos - this.transform.position;
+
+            this.GetComponentInParent<Rigidbody2D>().AddForce(dir.normalized * bigForce, ForceMode2D.Impulse);
 
             Debug.Log("AddForce");
 
